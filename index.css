@@ -1,0 +1,69 @@
+body{    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(2, 0, 34) 0%, rgba(12,9,121,1) 35%, rgb(13, 185, 219) 100%);
+    display: grid;
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    top: 280px ;
+    left: 1180px ;
+    display: grid;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 0px;
+}
+h2{
+    display: grid;
+    justify-content: center;
+    color: antiquewhite;
+    margin-top: 120px;
+}
+h3{
+    display: grid;
+    justify-content: center;
+    color: antiquewhite; 
+}
+.quadrado{
+    margin-top: 50%;
+    width: 500px;
+    height: 500px; 
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 18px;
+}
+.box{
+     display: grid;
+    justify-content: center;
+}
+#input1{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    position: absolute;
+    top: 400px;
+    left: 1120px;
+    border: none;
+}
+#input2{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    left: 1120px;
+    border: none;
+}
+button{
+    width: 200px ;
+    height: 40px;
+    position: absolute;
+    top: 650px;
+    left: 1175px;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgba(0, 255, 42, 0.329);
+}
