@@ -1,0 +1,74 @@
+body{    
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(2, 0, 34) 0%, rgb(5, 197, 204) 35%, rgb(14, 158, 127) 100%);
+    display: grid;
+    justify-content: center;
+}
+h1{
+
+    display: grid;  
+    justify-content: space-around;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+
+}
+.quadrado{
+    margin-top: 30%;
+    width: 50%;
+    width: 590px;
+    height: 600px; 
+    background-color: rgba(0, 0, 0, 0.514);
+
+}
+.input1 input{
+    margin-left: 2%;
+    width: 96%;
+    height: 60px;
+    font-size: 20px;
+
+}
+.input2 input{
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 96%;
+    height: 60px;
+    font-size: 20px;
+
+
+}   
+.input3 input{
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 96%;
+    height: 60px;
+    font-size: 20px;
+
+}   
+.input4 input{
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 96%;
+    height: 60px;
+    font-size: 20px;
+}   
+.btn1 button{
+    margin-top: 5%;
+    margin-left: 31.5%;
+    width: 200px;
+    height: 40px ;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+input{
+ outline: none;
+ color: black;
+ border: 2px solid rgba(0, 0, 0, 0.26);
+ border-radius: 5px;
+}
+
+.input #taskInput::placeholder {
+    color: rgb(0, 0, 0);
+}
