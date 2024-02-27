@@ -1,18 +1,17 @@
-body{    margin: 0;
+body{    
+    margin: 0;
     padding: 0;
     background: linear-gradient(90deg, rgb(2, 0, 34) 0%, rgba(12,9,121,1) 35%, rgb(13, 185, 219) 100%);
     display: grid;
     justify-content: center;
 }
 h1{
-    position: absolute;
-    top: 280px ;
-    left: 1180px ;
-    display: grid;
-    justify-content: center;
+
+    display: grid;  
+    justify-content: space-around;
     font-size: 60px;
     color: white;
-    margin-top: 0px;
+
 }
 h2{
     display: grid;
@@ -26,44 +25,52 @@ h3{
     color: antiquewhite; 
 }
 .quadrado{
+    top: 50%;
     margin-top: 50%;
-    width: 500px;
+    width: 490px;
     height: 500px; 
     background-color: rgba(0, 0, 0, 0.39);
-    border-radius: 18px;
+
 }
 .box{
      display: grid;
     justify-content: center;
 }
-#input1{
-    width: 300px;
+.input1 input{
+    margin-left: 2%;
+    width: 310px;
     height: 60px;
     font-size: 20px;
-    position: absolute;
-    top: 400px;
-    left: 1120px;
     border: none;
+    border-radius: 8px;
 }
-#input2{
-    width: 300px;
+.input2 input{
+    margin-top: 14%;
+    margin-left: 2%;
+    width: 310px;
     height: 60px;
     font-size: 20px;
-    position: absolute;
-    top: 500px;
-    left: 1120px;
     border: none;
+}   
+.btn1 button{
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 100px;
+    height: 20px ;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 4px 5px #00000060
 }
-button{
+.btn2 button {
+    margin-top: 10%;
+    margin-left: 19%;
     width: 200px ;
     height: 40px;
-    position: absolute;
-    top: 650px;
-    left: 1175px;
     border: none;
     font-size: 20px;
+    border-radius: 18px;
+    box-shadow: 4px 5px #00000060
 }
-
-button:hover{
-    background-color: rgba(0, 255, 42, 0.329);
+input{
+    border-radius: 10px;
 }

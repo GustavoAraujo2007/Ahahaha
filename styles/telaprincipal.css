@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+main{
+    background: linear-gradient(90deg,rgb(15, 156, 91) 35%, rgb(13, 170, 97) 100%);
+}
+.quadrado{
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+}
+img{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    width: 120px;
+    height: 100px;
+}
+a{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10%;
+    color: aliceblue;
+}
